@@ -1,7 +1,8 @@
 {
-  "name": "portfolio",
-  "version": "0.1.0",
+  "name": "time-tracking-app",
+  "version": "1.0",
   "private": true,
+  "type": "module",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -11,18 +12,23 @@
     "@types/react": "^18.2.3",
     "@types/react-dom": "^18.2.3",
     "@types/styled-components": "^5.1.26",
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "fs": "^0.0.1-security",
+    "nodemon": "^3.1.4",
+    "path": "^0.12.7",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "^5.0.1",
     "styled-components": "^5.3.10",
-    "typescript": "^5.0.4",
-    "web-vitals": "^2.1.4"
+    "typescript": "^5.0.4"
   },
   "overrides": {
     "typescript": "^5.0.4"
   },
   "scripts": {
     "start": "react-scripts start",
+    "dev": "nodemon server.js",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -56,6 +62,7 @@
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-react": "^7.32.2",
     "eslint-plugin-react-hooks": "^4.6.0",
-    "prettier": "^2.8.8"
+    "prettier": "^2.8.8",
+    "ts-node": "^10.9.2"
   }
 }
