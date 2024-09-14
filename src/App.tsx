@@ -1,9 +1,8 @@
-import { NavBar } from "./components";
+import { TimersDashboard } from './components';
 function App() {
   return (
     <>
-      <NavBar />
-      <h1>Hello World</h1>
+      <TimersDashboard />
     </>
   );
 }

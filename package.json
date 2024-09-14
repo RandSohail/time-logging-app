@@ -1,6 +1,6 @@
 {
   "name": "time-tracking-app",
-  "version": "1.0",
+  "version": "1.0.0",
   "private": true,
   "type": "module",
   "dependencies": {
@@ -20,6 +20,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "^5.0.1",
+    "semantic-ui-css": "^2.5.0",
     "styled-components": "^5.3.10",
     "typescript": "^5.0.4"
   },
